@@ -209,4 +209,5 @@ before you start the adapter, make sure DHIS2 allows connections from the contai
 sudo ufw allow from 192.168.0.53 to any port 8080
 ```
 
+Make sure the adapter is pointing to the correct hapi fhir both in the application.yml and scripts
 ***Voila! you can restart the adapter conainter and follow the logs***
